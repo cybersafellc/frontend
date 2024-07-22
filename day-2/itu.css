@@ -1,0 +1,50 @@
+
+section {
+    background-color: #49CADD;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: rgb(255, 99, 255);
+
+}
+
+#ini-ul {
+    list-style-type: none;
+}
+
+#logo {
+    color: red;
+    text-decoration: underline;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.div-disiksa {
+    background-color: blue;
+    /* border-style: solid;
+    border-color: black; */
+    border: 15px green solid;
+    padding: 5px;
+    margin: 25px;
+}
+
+.div-disiksa-part-dua {
+    background-color: orange;
+    border: 15px green solid;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* buat garis bawah */
+ /* text dicoret */
+ /* text tebal  */
+ /* buat miring */
+ /* ubah jadi huruf kapital semua */
+
+
+
+ /* tyypography css */
+ /* tyypography sizing */
