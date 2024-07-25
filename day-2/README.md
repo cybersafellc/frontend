@@ -49,4 +49,18 @@ Contoh :
 }
 ```
 
-## Property css Sizing [soon...]
+## Property css Sizing
+
+- Witdh
+- height
+- display
+
+```css{
+    .sizing {
+        background-color: bisque;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+    }
+}
+```

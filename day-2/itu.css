@@ -4,6 +4,7 @@ section {
     padding: 10px;
 }
 
+
 .navbar {
     background-color: rgb(255, 99, 255);
 
@@ -37,6 +38,14 @@ section {
     padding-top: 10px;
     margin-bottom: 50px;
 }
+
+.sizing {
+    background-color: bisque;
+    width: 100rem;
+    height: 300px;
+    display: block;
+}
+
 
 /* buat garis bawah */
  /* text dicoret */
