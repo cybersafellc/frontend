@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+nav {
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px;
+}
+
+nav li {
+   display: inline-block;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav h5 {
+    color: orange;
+}
