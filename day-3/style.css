@@ -14,7 +14,7 @@ nav {
 }
 
 nav li {
-   display: inline-block;
+    display: inline-block;
 }
 
 nav a {
@@ -26,4 +26,93 @@ nav a {
 
 nav h5 {
     color: orange;
+}
+
+.container-tampilan-pertama {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container-tampilan-pertama img {
+    width: 300px;
+}
+.container-tampilan-pertama .kiri {
+    width: 50%;
+}
+.container-tampilan-pertama .kanan {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.container-tampilan-pertama .kiri h1 {
+    font-size: 50px;
+}
+.container-tampilan-pertama .kiri h2 {
+    font-size: 35px;
+}
+.container-tampilan-pertama .kiri button {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(0, 183, 255);
+    border-radius: 10px;
+}
+
+.container-tampilan-kedua {
+    padding: 40px 0px;
+}
+
+.container-tampilan-kedua .atas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.line-kosong {
+    width: 200px;
+    height: 5px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.container-tampilan-kedua {
+    padding: 30px;
+}
+.container-tampilan-kedua .bawah {
+    display: flex;
+    margin-top: 30px;
+}
+.container-tampilan-kedua .bawah .kiri {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-tampilan-kedua .bawah .kiri button {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 183, 255);
+}
+
+.container-tampilan-kedua .bawah .kanan {
+    width: 50%;
+}
+
+.button-palsu {
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.kertas-nasi {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 }
