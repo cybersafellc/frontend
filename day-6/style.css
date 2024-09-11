@@ -1,0 +1,30 @@
+.custom-hover:hover {
+    color: blueviolet !important;
+    transition: 0.4s;
+}
+
+.bg-ungu {
+    background-color: blueviolet !important;
+}
+
+.background-image {
+    background-image: url("bgsaja.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.background-image-profile {
+    background-image: url("profile.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.bg-dongker {
+    background-color: #1f2c6c;
+}
